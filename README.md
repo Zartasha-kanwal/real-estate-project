@@ -47,7 +47,7 @@ Installation
 
 ## Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/Zartasha-kanwal/real-estate-project.git
 
 ## Navigate to project directory
 
