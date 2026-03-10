@@ -16,7 +16,6 @@ Rich Modal System — Detailed views for amenities and residences
 
 Fully Responsive — Mobile-first design that works on all devices
 
-Performance Optimized — 100 Best Practices / 100 SEO (Lighthouse)
 
 ## 🛠️ Tech Stack
 
