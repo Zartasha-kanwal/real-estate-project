@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 97%;
+    --foreground: 220 25% 12%;
+
+    --card: 40 15% 95%;
+    --card-foreground: 220 25% 12%;
+
+    --popover: 40 20% 97%;
+    --popover-foreground: 220 25% 12%;
+
+    --primary: 220 35% 15%;
+    --primary-foreground: 40 20% 97%;
+
+    --secondary: 35 20% 90%;
+    --secondary-foreground: 220 25% 12%;
+
+    --muted: 35 12% 88%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 42 75% 50%;
+    --accent-foreground: 220 25% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 42 75% 50%;
+
+    --radius: 0rem;
+
+    --gold: 42 75% 50%;
+    --gold-light: 42 65% 65%;
+    --gold-dark: 42 80% 35%;
+    --marble: 40 20% 97%;
+    --marble-dark: 35 15% 90%;
+    --warm-cream: 35 30% 95%;
+    --warm-stone: 30 10% 75%;
+    --warm-beige: 35 25% 88%;
+    --deep-charcoal: 220 25% 12%;
+    --deep-navy: 220 35% 15%;
+    --navy-light: 220 30% 22%;
+    --royal-blue: 220 50% 25%;
+    --copper: 18 50% 45%;
+    --copper-light: 25 40% 60%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 25% 6%;
+    --foreground: 40 20% 92%;
+    --card: 220 25% 8%;
+    --card-foreground: 40 20% 92%;
+    --popover: 220 25% 6%;
+    --popover-foreground: 40 20% 92%;
+    --primary: 42 75% 50%;
+    --primary-foreground: 220 25% 6%;
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 40 20% 92%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 35 10% 60%;
+    --accent: 42 75% 55%;
+    --accent-foreground: 220 25% 6%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 42 75% 50%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-display text-5xl md:text-7xl lg:text-8xl font-normal leading-[0.9] tracking-tight;
+  }
+
+  .section-subheading {
+    @apply font-serif text-3xl md:text-4xl lg:text-5xl font-light leading-[1.1] tracking-tight;
+  }
+
+  .body-text {
+    @apply font-body text-sm md:text-base font-light leading-relaxed text-muted-foreground;
+  }
+
+  .link-underline {
+    @apply inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase font-body font-medium border-b border-foreground pb-1 hover:border-accent transition-colors cursor-pointer;
+  }
+
+  .btn-royal {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-4 font-body text-xs tracking-[0.2em] uppercase font-medium transition-all duration-300 cursor-pointer;
+  }
+
+  .btn-royal-primary {
+    @apply btn-royal bg-foreground text-background hover:bg-accent hover:text-accent-foreground;
+  }
+
+  .btn-royal-outline {
+    @apply btn-royal border border-foreground text-foreground hover:bg-foreground hover:text-background;
+  }
+
+  .btn-royal-gold {
+    @apply btn-royal bg-gold text-deep-charcoal hover:bg-gold-light;
+  }
+
+  .stat-number {
+    @apply font-display text-4xl md:text-5xl lg:text-6xl font-normal leading-none;
+  }
+
+  .section-label {
+    @apply font-body text-[10px] md:text-xs tracking-[0.3em] uppercase text-muted-foreground;
+  }
+
+  .gold-separator {
+    @apply w-16 h-px bg-gold;
+  }
+}
