@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# Crown Tower — Luxury Real Estate Showcase 🏗️
 
-## Project info
+A premium, interactive web experience for a luxury residential tower in Islamabad. Built with modern web technologies to deliver smooth animations, intuitive filtering, and an immersive user experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Live Demo: crown-tower-realestate-project.vercel.app
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+Cinematic Scroll Animations — Buttery-smooth transitions using Framer Motion
 
-**Use Lovable**
+Residence Filtering — Filter by tier, floor, size, and price (instant UI updates)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Interactive Floor Plans — Zoom, pan, and click to explore unit layouts
 
-Changes made via Lovable will be committed automatically to this repo.
+Rich Modal System — Detailed views for amenities and residences
 
-**Use your preferred IDE**
+Fully Responsive — Mobile-first design that works on all devices
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Performance Optimized — 100 Best Practices / 100 SEO (Lighthouse)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+Technology	Purpose
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+React + TypeScript	Core framework with type safety
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Vite	Fast development and builds
 
-# Step 3: Install the necessary dependencies.
-npm i
+Framer Motion	Scroll animations + micro-interactions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Tailwind CSS	Styling + responsive design
+
+shadcn/ui	Accessible component primitives
+
+Vercel	Deployment + hosting
+
+## 🚀 Getting Started
+
+Prerequisites
+
+Node.js (v18+)
+
+npm 
+
+Installation
+
+// bash
+
+## Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+## Navigate to project directory
+
+cd crown-tower-realestate
+
+## Install dependencies
+
+npm install
+
+## Start development server
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
