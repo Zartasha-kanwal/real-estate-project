@@ -51,7 +51,7 @@ git clone https://github.com/Zartasha-kanwal/real-estate-project.git
 
 ## Navigate to project directory
 
-cd crown-tower-realestate
+cd real-estate-project
 
 ## Install dependencies
 
