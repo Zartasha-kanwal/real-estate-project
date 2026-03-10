@@ -2,7 +2,7 @@
 
 A premium, interactive web experience for a luxury residential tower in Islamabad. Built with modern web technologies to deliver smooth animations, intuitive filtering, and an immersive user experience.
 
-🔗 Live Demo: crown-tower-realestate-project.vercel.app
+🔗 Live Demo: [crown-tower-realestate-project.vercel.app](https://crown-tower-realestate-project.vercel.app/)
 
 ## ✨ Features
 
